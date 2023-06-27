@@ -70,11 +70,11 @@ public class MidtermExam {
         }
 
         // In ra các từ và tần suất xuất hiện của chúng
-        for (Map.Entry<String, Integer> entry : wordCountMap.entrySet()) {
-            String w = entry.getKey();
-            int frequency = entry.getValue();
-            System.out.println(w+ ": " + frequency);
-        }
+//        for (Map.Entry<String, Integer> entry : wordCountMap.entrySet()) {
+//            String w = entry.getKey();
+//            int frequency = entry.getValue();
+//            System.out.println(w+ ": " + frequency);
+//        }
         System.out.println(word + wordCountMap.get(word));
 
     }
