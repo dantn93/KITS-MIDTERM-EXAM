@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
-public class Example3 {
+public class String_Exam3 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(takeOddOnly("xyz"))); // ["x", "z"]
-        System.out.println(Arrays.toString(takeOddOnly("abcd"))); // ["a", "c"]
-        System.out.println(Arrays.toString(takeOddOnly(""))); // []
+        System.out.println(Arrays.toString(takeOddOnly("xyz")));
+        System.out.println(Arrays.toString(takeOddOnly("abcd")));
+        System.out.println(Arrays.toString(takeOddOnly("")));
     }
 
     public static String[] takeOddOnly(String str) {

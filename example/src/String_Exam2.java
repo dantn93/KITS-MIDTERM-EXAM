@@ -1,10 +1,10 @@
-public class Example2 {
+public class String_Exam2 {
     public static void main(String[] args) {
-        System.out.println(takeMiddle("abc")); // "b"
-        System.out.println(takeMiddle("abcd")); // "c"
-        System.out.println(takeMiddle("abecd")); // "e"
-        System.out.println(takeMiddle("a")); // "a"
-        System.out.println(takeMiddle("")); // ""
+        System.out.println(takeMiddle("abc"));
+        System.out.println(takeMiddle("abcd"));
+        System.out.println(takeMiddle("abecd"));
+        System.out.println(takeMiddle("a"));
+        System.out.println(takeMiddle(""));
     }
 
     public static String takeMiddle(String str) {
