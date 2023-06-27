@@ -62,7 +62,7 @@ public class Main {
                 list.add(String.valueOf(str.charAt(i)));
             }
         }
-        String[] s = new String[list.size()];
+        String[] s = (String[]) list.toArray();
         return s;
     }
 
