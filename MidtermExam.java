@@ -17,8 +17,8 @@ public class MidtermExam {
         takeOddOnly("abcd"); // ["a", "c"]
         takeOddOnly(""); // []
         //
-        wordCounter("I slowly walked, step by step, through the tranquil forest, feeling the softness of the leaves under my feet and the whispers of the wind through the trees", "step"); // 2
-        wordCounter("I slowly walked, step by step, through the tranquil forest, feeling the softness of the leaves under my feet and the whispers of the wind through the trees", "the"); // 6
+        wordCounter("I slowly walked, step by step , through the tranquil forest, feeling the softness of the leaves under my feet and the whispers of the wind through the trees", "step"); // 2
+        wordCounter("I slowly walked, step by step , through the tranquil forest, feeling the softness of the leaves under my feet and the whispers of the wind through the trees", "the"); // 6
     }
 
     private static void takeOddOnly(String str) {
@@ -75,7 +75,7 @@ public class MidtermExam {
             int frequency = entry.getValue();
             System.out.println(w+ ": " + frequency);
         }
-//        System.out.println(wordCountMap.get("step"));
+        System.out.println(word + wordCountMap.get(word));
 
     }
 
