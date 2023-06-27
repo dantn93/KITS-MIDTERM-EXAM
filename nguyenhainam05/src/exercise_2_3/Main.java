@@ -4,6 +4,12 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Main {
+    /*
+    * int wordCounter(String text, String word);
+
+wordCounter("I slowly walked, step by step, through the tranquil forest, feeling the softness of the leaves under my feet and the whispers of the wind through the trees", "step"); // 2
+wordCounter("I slowly walked, step by step, through the tranquil forest, feeling the softness of the leaves under my feet and the whispers of the wind through the trees", "the"); // 6
+    * */
     public static int wordCounter(String text, String word){
         HashMap<String, Integer> numberString = new HashMap<String,Integer>();
         String textReplace = text.replaceAll(",", "");

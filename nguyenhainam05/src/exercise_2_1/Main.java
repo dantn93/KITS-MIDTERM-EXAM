@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+    /*
+    * List<String> convert(String[] strs);
+
+convert(new String[] { "a", "b", "c" }); // ArrayList { "a", "b", "c" }
+convert(new String[] {}); // ArrayList { "a", "b", "c" }*/
     public  static  List<String> convert(String[] strs){
         List<String> output = new ArrayList<>();
         for(String s: strs){
